@@ -412,10 +412,10 @@ span.text-red {
 }
 .product-detail-container {
   display: flex;
-  gap: 40px;
+  gap: 100px;
   margin: 40px;
   margin-top: 60px;
-  color: #324d67;
+   color: #324d67;
 }
 
 .product-detail-image {
@@ -434,6 +434,7 @@ span.text-red {
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  
 }
 .small-image {
   border-radius: 8px;
@@ -675,6 +676,7 @@ span.text-red {
   }
   .product-detail-container {
     flex-wrap: wrap;
+    
   }
   .product-detail-container .product-detail-image {
     width: 350px;
