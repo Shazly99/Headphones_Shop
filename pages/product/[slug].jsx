@@ -7,6 +7,7 @@ const productDetails = ({ products, product }) => {
   const [Index, setIndex] = useState(0)
   return (
  
+    
       <div>
         <div className="product-detail-container">
           <div>

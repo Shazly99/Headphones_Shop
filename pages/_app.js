@@ -1,11 +1,15 @@
 import React from "react";
 import { Layout } from "../components";
 import "../styles/globals.scss";
+import { StateContext } from "./../Context/StateContext";
+
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    // <StateContext>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    // </StateContext>
   );
 }
 
